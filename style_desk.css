@@ -1,0 +1,140 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.w3-content,.w3-auto{margin-left:0px;margin-right:0px}
+.w3-content{max-width:1080px}
+.w3-auto{max-width:1080px}
+.w3-animate-fading{animation:fading 10s infinite; max-width: 1375px}
+.company_name
+{
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  font-size: 25px;
+  right: 475px;
+  width: 400px;
+  height: 100px;
+  border: 3px solid #000000;
+  z-index: 1;
+  transition: background 2s;
+
+}
+
+.company_name:hover 
+{
+  background: #ffffff;
+}
+
+.para1
+{
+	position: absolute;
+    top: 650px;
+	left: 550px;
+	width: 700px;
+	transition: background 2s;
+}
+
+.para1:hover 
+{
+  background: #FFCD00;
+}
+
+.img1
+{
+	position: absolute;
+    top: 650px;
+	left: 20px;
+	max-width: 700px;
+	zoom:100%;
+}
+.img2
+{
+	position: absolute;
+    top: 1180px;
+	left: 825px;
+	width: 700px;	
+  zoom:100%;
+}
+
+.img3
+{
+	position: absolute;
+    top: 1725px;
+	left: 20px;
+	width: 700px;	
+  zoom:100%;
+}
+
+
+
+.para2
+{
+	position: absolute;
+    top: 1180px;
+	left: 20px;
+	width: 700px;
+	transition: background 2s;
+}
+
+.para2:hover 
+{
+  background: #00A2FF;
+}
+
+.para3
+{
+	position: absolute;
+    top: 1750px;
+	left: 600px;
+	width: 700px;
+	transition: background 2s;
+}
+
+.para3:hover 
+{
+  background: #00FF77;
+}
+
+
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1BE9F0;
+}
+
+.active {
+  background-color: #4EC4C9;
+}
+
+.bottom
+{
+		position: absolute;
+    top: 2300px;
+	left: 520px;
+	width: 700px;
+}
